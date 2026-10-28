@@ -1,0 +1,45 @@
+
+   body {
+  font-family: Arial;
+ background: linear-gradient(45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+   animation: bgMove 6s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.box {
+  background: rgb(92, 235, 175);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  width: 250px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 8px;
+  width: 100%;
+  background: rgb(206, 120, 228);
+  color: rgb(18, 45, 56);
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+}
+
+button:hover {
+  background: rgb(134, 180, 250);
+}
+
+h3 {
+  margin-top: 10px;
+}
